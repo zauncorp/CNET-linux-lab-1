@@ -1,0 +1,19 @@
+# CNET-linux-lab-1
+
+nodemtbf = 120000ms
+nodemttr = 60000ms
+compile = "hello.c"
+host Minneapolis
+{
+link to Madison
+}
+host DesMoines
+{
+south of Minneapolis
+link to Minneapolis
+}
+host Madison
+{
+east of Minneapolis
+link to Minneapolis
+}
